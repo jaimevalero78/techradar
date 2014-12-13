@@ -4,10 +4,14 @@ document.title = "WotifGroup's Technology Radar (December 2014)";
 
 //This is the concentic circles that want on your radar
 var radar_arcs = [
-                   {'r':100,'name':'Adopt'}
-                  ,{'r':200,'name':'Trial'}
-                  ,{'r':300,'name':'Assess'}
-                  ,{'r':400,'name':'Hold'}
+                  // {'r':100,'name':'Adopt'}
+                  //,{'r':200,'name':'Trial'}
+                  //,{'r':300,'name':'Assess'}
+                  //,{'r':400,'name':'Hold'}
+                   {'r':100,'name':'decommisioning'}
+                   ,{'r':200,'name':'Use'}
+                   ,{'r':300,'name':'Prospect'}
+                   ,{'r':400,'name':'Hold'}
                  // ,{'r':500,'name':'Possible Extra if you want it'}
                  ];
 
