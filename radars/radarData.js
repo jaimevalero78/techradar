@@ -83,7 +83,7 @@ var radar_data = [
         "color" : "#587486",
         "items" : [ 
 
-  { name: 'Develenv',    pc: { r: 180, t: 5 },    movement: 'c',    domain: 'mobile' },
+  { name: 'Develenv',    pc: { r: 180, t: 5 },    movement: 'c',    domain: 'http://wikis.hi.inet/epg-private/index.php/TOOL_CI_develenv' },
   { name: 'Puppet',    pc: { r: 170, t: 29 },    movement: 'c' }, 
    { name: 'Icinga',    pc: { r: 180, t: 82 },    movement: 'c' },
  
@@ -108,31 +108,38 @@ var radar_data = [
         "color" : "#DC6F1D",
         "items" : [
 
-            {"name":"OpenId Connect", "pc":{"r":130,"t":260},"movement":"t"},   
-            {"name":"Location based services", "pc":{"r":130,"t":230},"movement":"c"},
-            {"name":"Openstack", "pc":{"r":190,"t":190},"movement":"c"},
-            {"name":"RHEL 7", "pc":{"r":170,"t":215},"movement":"c"},      
+            {"name":"Tashi", "pc":{"r":30,"t":260},"movement":"c"},   
+            {"name":"Oracle RAC", "pc":{"r":50,"t":230},"movement":"t"},
+            {"name":"Artifacts", "pc":{"r":90,"t":190},"movement":"c"},
+            {"name":"Blogs", "pc":{"r":70,"t":200},"movement":"c"},     
 
-            {"name":"App containers", "pc":{"r":250,"t":260},"movement":"c"},
-            {"name":"Google Cloud Data Flow", "pc":{"r":275,"t":260},"movement":"t"},
-            { name: 'Postgres as NoSQL',              pc: { r: 220, t: 255 },              movement: 'c' },
-            {"name":"AWS 2014 Innovations", "pc":{"r":270,"t":195},"movement":"c"},
-            {"name":"Azure", "pc":{"r":290,"t":265},"movement":"c"},   
-            { name: 'Mesos',              pc: { r: 260, t: 265 },              movement: 't' },
-            { name: 'Marathon',              pc: { r: 240, t: 268 },              movement: 't' },
-            { name: 'Kubernetes',              pc: { r: 270, t: 236 },              movement: 't' },
-            {"name":"Google App Engine", "pc":{"r":290,"t":255},"movement":"c"},   
-            {"name":"Google as corporate platform", "pc":{"r":290,"t":200},"movement":"c"},   
+	    {"name":"Jira", "pc":{"r":170,"t":215},"movement":"c"},      
+            {"name":"Pdihub", "pc":{"r":150,"t":240},"movement":"c"},
+            {"name":"VMWare", "pc":{"r":175,"t":260},"movement":"c"},
+            { name: 'Itop', pc: { r: 120, t: 255 }, movement: 't' },
+            {"name":"Vmticket", "pc":{"r":170,"t":195},"movement":"c"},
+            {"name":"Itop", "pc":{"r":190,"t":265},"movement":"c"},   
+            { name: 'VMWare',  pc: { r: 160, t: 265 }, movement: 'c' },
+            { name: 'BaseCamp', pc: { r: 140, t: 268 }, movement: 'c' },
+            { name: 'GitHub.com', pc: { r: 170, t: 236 }, movement: 'c' },
+            {"name":"Wikis", "pc":{"r":190,"t":255},"movement":"c"},   
 
+	    {"name":"Artifactory", "pc":{"r":110,"t":200},"movement":"c"},   
+            {"name":"Repos", "pc":{"r":130,"t":225},"movement":"c"},
+            {"name":"MySQL", "pc":{"r":185,"t":245},"movement":"c"},   
+            {"name":"SharePoint", "pc":{"r":190,"t":210},"movement":"c"},   
+            { name: 'OpenStack', pc: { r: 150, t: 227 }, movement: 'c' },
+            {"name":"Inventory Server", "pc":{"r":190,"t":225},"movement":"c"},
+            {"name":"Graneros", "pc":{"r":170,"t":250},"movement":"c"},
+            { name: 'NetApp', pc: { r: 150, t: 257 }, movement: 'c' },
+            {"name":"FTP", "pc":{"r":120,"t":215},"movement":"c"},
+            {"name":"Hadoop", "pc":{"r":145,"t":215},"movement":"c"},
+	    {"name":"DNS", "pc":{"r":190,"t":185},"movement":"c"}   ,
 
-            {"name":"Google Play - (alpha/beta builds)", "pc":{"r":30,"t":225},"movement":"c"},
-            {"name":"JVM as platform", "pc":{"r":90,"t":265},"movement":"c"},   
-            {"name":"AWS", "pc":{"r":90,"t":250},"movement":"c"},   
-            { name: 'BigIP v11',              pc: { r: 50, t: 257 },              movement: 'c' },
+            { name: 'DCIP', pc: { r: 250, t: 257 }, movement: 'c' },
+            {"name":"Satellite", "pc":{"r":220,"t":215},"movement":"t"},
+            {"name":"Joget", "pc":{"r":245,"t":215},"movement":"t"}
 
-            {"name":"Tashi", "pc":{"r":90,"t":215},"movement":"c"},
-            {"name":"Oracle RAC", "pc":{"r":90,"t":185},"movement":"c"},   
-            {"name":"Artifacts", "pc":{"r":70,"t":195},"movement":"c"}
 
         ]
     },
@@ -141,29 +148,12 @@ var radar_data = [
         "left"  : (w-200+30),
         "top" :   (h/2 + 18),
         "items" : [ 
-            { name: 'CDI', pc: { r: 60, t: 290 },  movement: 'c' },
-            { name: 'Jersey', pc: { r: 60, t: 310 },  movement: 'c' },
+            { name: 'Perl', pc: { r: 90, t: 330 },  movement: 'c' },
+            { name: 'Shell', pc: { r: 140, t: 290 },  movement: 'c' },
+            { name: 'Ruby', pc: { r: 120, t: 310 },  movement: 'c' },
 
-            { name: 'Guice', pc: { r: 60, t: 278 },  movement: 'c' },
-            { name: 'RxJava', pc: { r: 150, t: 298 },              movement: 'c',  domain: 'template' },          
-
-            {"name":"Java 8", "pc":{"r":130,"t":355},"movement":"c"},   
-            {"name":"Groovy ^", "pc":{"r":190,"t":280},"movement":"c"},
-
-            {"name":"Swift", "pc":{"r":280,"t":300},"movement":"c"},
-            {"name":"Scala - the good parts ^", "pc":{"r":290,"t":320},"movement":"c"},   
-            {"name":"Serverside Javascript", "pc":{"r":220,"t":275},"movement":"c"},   
-            {"name":"Coffeescript", "pc":{"r":270,"t":282},"movement":"c"},
-            {"name":"Functional Reactive Programming", "pc":{"r":285,"t":330},"movement":"c"},   
-            {"name":"Clojure", "pc":{"r":280,"t":310},"movement":"c"},
-            { name: 'RxJs',              pc: { r: 250, t: 338 },              movement: 'c',              domain: 'template' },
-            { name: 'Web Components', pc: { r: 260, t: 330 },  movement: 'c' },
-
-            { name: 'Mustache/Handlebars template',   pc: { r: 50, t: 298 },              movement: 'c',              domain: 'template' },
-            { name: 'Spring ^', pc: { r: 360, t: 330 },  movement: 'c' },
-            {"name":"Web Objects", "pc":{"r":390,"t":290},"movement":"c"},
-            {"name":"ASP Classic", "pc":{"r":375,"t":330},"movement":"c"},
-            {"name":"Java 6 and earlier", "pc":{"r":390,"t":350},"movement":"c"}
+            { name: 'Power Shell', pc: { r: 150, t: 305 }, movement: 't',  domain: 'template' },          
+            {"name":"ViPerl", "pc":{"r":130,"t":335},"movement":"c"}
         ]
     }
 ];
